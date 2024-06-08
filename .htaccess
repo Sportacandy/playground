@@ -1,0 +1,12 @@
+Options +FollowSymLinks +MultiViews -Indexes
+DirectoryIndex index.html
+
+AddLanguage ja .ja
+AddLanguage ja-jp .ja
+AddLanguage ja-jp-mac .ja
+AddLanguage en .en
+AddLanguage en-us .en
+LanguagePriority ja en
+ForceLanguagePriority Prefer
+ForceLanguagePriority Fallback
+DefaultLanguage en
